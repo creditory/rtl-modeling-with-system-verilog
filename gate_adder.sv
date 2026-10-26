@@ -7,8 +7,8 @@ module gate_adder
  output  wire sum, co
  );
  
- // don't know what this is yet
- timeunit 1ns; timeprecision 1ns;
+ // delays are in nanoseconds, with 2 decimal places of accuracy
+ timeunit 1ns; timeprecision 1ps;
  
  // define wires to interconnect logic gates
  wire n1, n2, n3;
